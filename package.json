@@ -6,6 +6,7 @@
     "start": "react-scripts start"
   },
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.13.4",
     "lottie-react": "^2.4.1",
     "nodemon": "^3.1.9",
     "react-scripts": "^5.0.1"

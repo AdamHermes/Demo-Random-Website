@@ -14,6 +14,37 @@ body {
     margin-bottom: 20px;
     animation: popIn 1s ease-in-out;
   }
+/* AnimationPlayer wrapper — larger & centered */
+.animation-wrapper {
+  position: relative;
+  width: 620px;               /* scale up from 256px */
+  height: 480px;              /* scale up from 256px */
+  margin: 1.5rem auto 0;      /* top margin + auto horizontal centering */
+}
+
+/* The background image */
+.animation-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+/* The Lottie on top */
+.animation-lottie {
+  position: absolute;
+  top: 0;
+  left: -20%;
+  width: 150%;
+  height: 150%;
+  z-index: 2;
+}
+
   
   /* Button Styles */
   button {
